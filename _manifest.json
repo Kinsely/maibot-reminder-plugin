@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "id": "com.Kinsely.reminder-bot",
+  "version": "1.0.0",
+  "name": "智能提醒",
+  "description": "自然语言驱动的定时提醒插件，支持备忘、人设化提醒",
+  "author": {
+    "name": "Kinsely",
+    "url": "https://github.com/Kinsely"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/Kinsely/maibot-reminder-plugin"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "9.9.9"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "9.9.9"
+  },
+  "capabilities": [
+  "config.get_all",
+  "llm.chat",
+  "send.text"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN"
+  },
+  "dependencies": []
+}
